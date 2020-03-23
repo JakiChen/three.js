@@ -7,9 +7,9 @@ three.js
 [![Dev Dependencies][dev-dependencies]][dev-dependencies-url]
 [![Language Grade][lgtm]][lgtm-url]
 
-#### JavaScript 3D library ####
+#### JavaScript 3D 库 ####
 
-The aim of the project is to create an easy to use, lightweight, 3D library with a default WebGL renderer. The library also provides Canvas 2D, SVG and CSS3D renderers in the examples.
+该项目的目的是使用默认的WebGL渲染器创建易于使用，轻巧的3D库。 在示例中，该库还提供了Canvas 2D，SVG和CSS3D渲染器。
 
 [Examples](http://threejs.org/examples/) &mdash;
 [Documentation](http://threejs.org/docs/) &mdash;
@@ -20,9 +20,9 @@ The aim of the project is to create an easy to use, lightweight, 3D library with
 [Slack](https://join.slack.com/t/threejs/shared_invite/enQtMzYxMzczODM2OTgxLTQ1YmY4YTQxOTFjNDAzYmQ4NjU2YzRhNzliY2RiNDEyYjU2MjhhODgyYWQ5Y2MyZTU3MWNkOGVmOGRhOTQzYTk) &mdash;
 [Discord](https://discordapp.com/invite/HF4UdyF)
 
-### Usage ###
+### 用法 ###
 
-This code creates a scene, a camera, and a geometric cube, and it adds the cube to the scene. It then creates a `WebGL` renderer for the scene and camera, and it adds that viewport to the `document.body` element. Finally, it animates the cube within the scene for the camera.
+此代码创建一个场景，一个照相机和一个几何立方体，并将立方体添加到场景中。 然后，它为场景和摄像机创建一个 “WebGL” 渲染器，并将该视口添加到 “ document.body” 元素中。 最后，它为摄像机的场景内的立方体设置动画。
 
 ```javascript
 import * as THREE from 'js/three.module.js';
@@ -66,7 +66,7 @@ function animate() {
 
 If everything went well you should see [this](https://jsfiddle.net/972m5cdx/).
 
-### Change log ###
+### 变更记录 ###
 
 [Releases](https://github.com/mrdoob/three.js/releases)
 
